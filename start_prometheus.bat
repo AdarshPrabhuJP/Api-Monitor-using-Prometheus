@@ -1,0 +1,3 @@
+@echo off
+echo Starting Prometheus Server...
+prometheus.exe --config.file=prometheus.yml --web.console.templates=consoles --web.console.libraries=console_libraries
